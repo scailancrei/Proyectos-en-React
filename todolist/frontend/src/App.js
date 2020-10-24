@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Boton from './components/boton'
+import Navegacion from './components/navegacion'
+
 
 function App() {
   return (
-    <div className="App">
-      <Boton />
+    <div>
+      <Navegacion />
     </div>
   );
 }
