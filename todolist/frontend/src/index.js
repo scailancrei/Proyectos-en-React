@@ -1,4 +1,4 @@
-import React, { StrictMode } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom';
 
 import './index.css';
@@ -6,9 +6,9 @@ import App from './App';
 
 
 ReactDOM.render(
-  <StrictMode>
+  <div className="App">
     <App />
-  </StrictMode>,
+  </div>,
   document.getElementById('root')
 );
 
